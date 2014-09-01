@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #eeeeeee;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#controls {
+  position: absolute;
+  display: table;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color:rgba(84,84,84,0.5);
+}
+
+#map-canvas {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
